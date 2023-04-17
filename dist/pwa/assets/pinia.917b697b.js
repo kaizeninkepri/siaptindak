@@ -1,0 +1,1 @@
+import{b as e}from"./index.4e7ffe61.js";import{u as i}from"./auth.f8643573.js";import"./axios.0a2aaee7.js";import"./ref.4ae668e5.js";const a=i();var u=e(({router:r,store:m})=>{r.beforeEach((t,s,o)=>{t.name!=="login"&&!a.login?o({name:"login"}):o()})});export{u as default};

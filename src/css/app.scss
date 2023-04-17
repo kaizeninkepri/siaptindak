@@ -1,0 +1,104 @@
+// app global css in SCSS form
+.body--light {
+  background-color: #f8fafb;
+}
+
+.q-drawer {
+  background: transparent;
+}
+
+.sidebar {
+  background-color: #2a6d78;
+  height: calc(100vh - 20px);
+}
+.header {
+  background-color: transparent;
+}
+.sidebarHeight {
+  height: calc(100vh - 110px);
+}
+// .q-page{
+//   background-color: #f8fafb;
+//   border-bottom-left-radius:20px;
+//   box-shadow: -6px 12px 9px -4px rgba(207,197,197,0.66);
+//   -webkit-box-shadow: -6px -12px 9px -4px rgba(207,197,197,0.66);
+//   -moz-box-shadow: -6px 2px 9px -4px rgba(207,197,197,0.66);
+// }
+// .header{
+//   border-top-left-radius:20px;
+//   background-color: white;
+//   color: black;
+//   box-shadow: -6px -3px 9px -4px rgba(207,197,197,0.66);
+//   -webkit-box-shadow: -6px -3px 9px -4px rgba(207,197,197,0.66);
+//   -moz-box-shadow: -6px -3px 9px -4px rgba(207,197,197,0.66);
+// }
+
+.q-item.q-router-link--active,
+.q-item--active {
+  color: #44a3a9;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.q-item.q-router-link--active,
+.q-item--active:before {
+  content: "";
+  background-color: #f8fafb;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+.radius10 {
+  border-radius: 10px !important;
+}
+.radius5 {
+  border-radius: 5px !important;
+}
+
+.radius8 {
+  border-radius: 8px !important;
+}
+.dashboard-bg {
+  height: 80px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-image: url("https://siaptindak.siapekprovtpi.web.id/public/bgheader.png");
+  // background: rgb(1, 69, 80);
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(1, 69, 80, 1) 14%,
+  //   rgba(18, 82, 92, 1) 36%,
+  //   rgba(50, 105, 114, 1) 60%,
+  //   rgba(255, 255, 255, 1) 100%
+  // );
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .header {
+    background-color: rgb(1, 69, 80);
+    color: white;
+  }
+  .dashboard-card {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(1, 69, 80, 1) 0%,
+      rgba(25, 200, 153, 1) 53%
+    );
+  }
+  .dashboard-bg {
+    height: 80px;
+    background-image: url("https://siaptindak.siapekprovtpi.web.id/public/bgheader.png");
+    // background: rgb(1, 69, 80);
+    // background: linear-gradient(
+    //   180deg,
+    //   rgba(1, 69, 80, 1) 14%,
+    //   rgba(18, 82, 92, 1) 36%,
+    //   rgba(50, 105, 114, 1) 60%,
+    //   rgba(255, 255, 255, 1) 100%
+    // );
+  }
+}

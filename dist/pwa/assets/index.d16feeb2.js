@@ -1,0 +1,1 @@
+import{Q as o}from"./QPage.38746f07.js";import{_ as t,a,o as r,e as n,w as s,f as c,g as p}from"./index.4e7ffe61.js";const _=a({name:"routing-index"});function i(d,f,m,u,l,x){const e=c("router-view");return r(),n(o,{class:"q-pa-md"},{default:s(()=>[p(e)]),_:1})}var $=t(_,[["render",i]]);export{$ as default};
